@@ -582,7 +582,7 @@ header {
     flex-shrink: 0;
     width: calc(33.33% - 20px);
     border-radius: 16px;
-    background-color: #fff;
+    background-color: white;
 }
 
 .blogs .item.item:hover {
@@ -666,4 +666,36 @@ header {
 .blogs .dot.active {
     background: var(--primary-color);
     cursor: default;
+}
+
+/* =====================footer========================== */
+footer {
+    background: #2e2100;
+    padding: 96px 135px 0;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+
+.footer .row .column:first-child {
+    width: 35%;
+}
+
+.footer .desc {
+    margin-top: 18px;
+    max-width: 267px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    line-height: 1.85;
+}
+
+.footer .socials {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
 }
