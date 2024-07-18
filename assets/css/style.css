@@ -676,6 +676,8 @@ footer {
 
 .footer .row {
     display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #8e8e8e;
 }
 
 .footer .row .column {
@@ -698,4 +700,46 @@ footer {
     display: flex;
     gap: 18px;
     margin-top: 18px;
+}
+
+.footer .title {
+    padding-bottom: 14px;
+    padding-right: 48px;
+    display: inline-block;
+    color: #fff;
+    border-bottom: 1px solid #8e8e8e;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer .list {
+    margin-top: 28px;
+}
+
+.footer .list a {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #e2dfda;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+
+.footer .list li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer .list strong {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85;
+}
+
+.footer .copyright {
+    padding: 28px 0;
+    color: #5f5b53;
+    text-align: center;
+    font-size: 1.85rem;
+    line-height: 1.85;
 }
